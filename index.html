@@ -6,39 +6,84 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="index.css">
-    <title>Portfólio</title>
+    <title>Portfolio</title>
 </head>
 
 <body>
     <header class="header">
 
         <nav class="navigation">
-            <a href="home">Home</a>
-            <a href="aboutMe">About me</a>
-            <a href="experience">Experience</a>
-            <a href="projects">Projects</a>
+            <div class="sun-moon">
+                <input id="btn" type="button">
+                <label for="btn" class="change-theme"></label>
+            </div>
+            <ul>
+                <li>
+                    <a href="#home">Início</a>
+                </li>
+                <li>
+                    <a href="#about">Sobre</a>
+                </li>
+                <li>
+                    <a href="#experience">Experiência</a>
+                </li>
+                <li>
+                    <a href="projects">Projetos</a>
+                </li>
+            </ul>
         </nav>
-        <div class="sun-moon">
-            <input id="btn" type="button">
-            <label for="btn" class="change-theme"></label>
-        </div>
 
     </header>
 
     <main class="informations">
         <section class="hello-world">
-            <p>Hello World! I'm Lucas Cristi, web developer front end </p>  
-            <img src="./images/foto.jpg" alt="Lucas Cristi" class="photo">
+            <p class="hello"><a name="home"></a> Olá Mundo! Eu sou o <span>Lucas
+                    Cristi</span>, desenvolvedor front end, sejam bem vindos a minha página.
+            </p>
+            <img src="./images/photocolor2.jpg" alt="Lucas Cristi" class="photo">
         </section>
+
         <section class="social-network">
             <div class="linkedin">
-                <label for="linkedin"><a class="social-color" href="https://www.linkedin.com/in/lucascristi/">LinkedIn</a></label>
+                <label for="linkedin"><a class="social-color"
+                        href="https://www.linkedin.com/in/lucascristi/">LinkedIn</a></label>
             </div>
             <div class="github">
                 <label for="github"><a class="social-color" href="https://github.com/LucasCristi">GitHub</a></label>
             </div>
         </section>
+
+        <section>
+            <div class="about">
+                <h2> <a name="about"></a>Sobre mim</h2>
+                <p>Meu nome é Lucas Cristi, nasci dia 8 de Outubro de 1993 na cidade de Tangará, Santa Catarina -
+                    Brasil, e moro há mais de 20 anos em Indaial, Santa Catarina.
+                    Quero realizar transição de carreira depois de 9 anos atuando no mercado financeiro, busco
+                    conhecimento sempre que tenho tempo e me apaixonei pela área de desenvolvimento front end.
+                    Sou uma pessoa simples, gosto muito de viajar e estar em meio a natureza. Sempre que tenho tempo e
+                    condições, faço caminhadas e trilhas para apreciar as paisagens e me desconectar
+                    do dia a dia. Prático atividades físicas regularmente.
+                </p>
+            </div>
+        </section>
+
+        <section>
+            <div class="experience">
+                <h2> <a name="experience"></a>Experiências</h2>
+                <p>CRIAR LINHA DO TEMPO
+                </p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <h3>Projetos</h3>
+            <div class="portfolio-projects">
+                <script src="./js/projectsList.js"></script>
+            </div>
+        </section>
+
     </main>
 
     <footer>

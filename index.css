@@ -1,0 +1,126 @@
+body {
+    padding-top: 5em;
+    background: var(--bg-color);
+    color: var(--font-color);
+    user-select: none;
+    transition: 2s;
+    user-select: none;
+}
+
+:root {
+    --label-icon: url("https://img.icons8.com/sf-regular/452/moon-symbol.png");
+    --linkedin-img: url("https://img.icons8.com/color/344/linkedin-circled--v1.png");
+    --github-img: url("https://img.icons8.com/ios-glyphs/344/github.png");
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 2em;
+    background-image: linear-gradient(to bottom, #4987e3, #3589d7, #2d89c9, #3289b9, #3f87aa);
+}
+
+main {
+    height: 100vh;
+}
+
+.navigation {
+    text-align: center;
+    font-size: 1.5em;
+    word-wrap: break-word;
+    /* background-color: #2abb42; */
+}
+
+a {
+    text-decoration: none;
+    color: var(--a-color);
+    transition: 2s;
+}
+
+a:hover {
+    color: #00fee9f0;
+}
+
+.dark-mode {
+    --bg-color: black;
+    --font-color: #ffffff;
+    --a-color: rgb(255, 251, 251);
+    --label-icon: url("https://img.icons8.com/ios/452/sun--v1.png");
+    --linkedin-img: url("https://img.icons8.com/nolan/452/linkedin-circled.png");
+    --github-img: url("https://img.icons8.com/nolan/452/github.png");
+}
+
+.change-theme {
+    background-image: var(--label-icon);
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 1em;
+    cursor: pointer;
+}
+
+
+#btn {
+    display: none;
+}
+
+/* .informations {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+} */
+
+.hello-world {
+    padding: 2em;
+    font-size: 1.5em;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.photo {
+    width: 10em;
+    border-radius: 50%;
+    margin-top: 2em;
+}
+
+.social-network {
+    margin-top: 1em;
+    display: flex;
+    /* background-color: #2abb42; */
+    justify-content: center;
+}
+
+.linkedin {
+    background-image: var(--linkedin-img);
+    background-size: cover;
+    width: 6em;
+    height: 6em;
+}
+
+.github {
+    background-image: var(--github-img);
+    background-size: cover;
+    width: 6em;
+    height: 6em;
+}
+
+.social-color {
+    background-color: rgba(0, 0, 0, 0.35);
+    border-radius: 2em;
+    padding: 0.3em;
+    color: #fff;
+    border: 0.1em solid rgb(30, 73, 172);
+    transition: 2s;
+}
+
+.social-color:hover {
+    background-color: #000;
+}
+
+
+footer {
+    margin-top: 2em;
+    text-align: center;
+    padding: 2em;
+    background-image: linear-gradient(to bottom, #4987e3, #3589d7, #2d89c9, #3289b9, #3f87aa);
+}

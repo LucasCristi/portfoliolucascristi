@@ -1,16 +1,20 @@
 let projectList = [ //url of projects
-    "https://www.youtube.com/watch?v=-9wzO6oim0U",
-    "https://www.youtube.com/watch?v=hRoIcc6qlyM"
+    "https://secretnumber-gamevoice.vercel.app/",
+    "https://lista-itens.vercel.app/",
+    "https://robotron2000-seven.vercel.app/"
 ]
 
 let imagesProject = [
-    "https://img.icons8.com/office/344/animated.png",
-    "https://img.icons8.com/ios/344/camera--v3.png"
+    "./photosProjects/app-voice.png",
+    "./photosProjects/lista-app.png",
+    "./photosProjects/robotron-app.png",
+
 ]
 
 let namesList = [
-    "teste",
-    "teste2"
+    "Acerte o número secreto! Projeto feito com API de comando de voz.",
+    "Lista de itens utilizando localStorage.",
+    "Robotron de combate para proteger a terra da invasão alienígena, trabalhando com a manipulação do DOM."
 ]
 
 
@@ -18,9 +22,9 @@ let namesList = [
 for (let indice = 0; indice < projectList.length; indice++) {
     for (let indice = 0; indice < imagesProject.length; indice++) {
         for (let indice = 0; indice < namesList.length; indice++) {
-            document.write("<a href=" + projectList[indice] + ">")
+            document.write("<div class='div-project'><a href=" + projectList[indice] + ">")
             document.write(" <img src=" + imagesProject[indice] + "></a>")
-            document.write(" <p>" + namesList[indice] + "</p>")
+            document.write(" <p>" + namesList[indice] + "</p></div>")
         }
         break;
     }

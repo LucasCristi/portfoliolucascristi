@@ -1,53 +1,91 @@
-// let button = document.getElementById('read-button')
+let button = document.getElementById('read-button')
 // console.log(button)
 
-// button.addEventListener('click', function () {
-//     let card = document.querySelector('.experience-card')
 
-//     card.classList.toggle('active')
+button.addEventListener('click', function () {
+    let card = document.querySelector('.experience-card')
 
-//     if(card.classList.contains('active')){
-//         return button.textContent = 'Ver menos'
-//     }
+    card.classList.toggle('active')
 
-//     button.textContent = 'Ver mais'
-// })
+    if(card.classList.contains('active')){
+        return button.textContent = 'Ver menos'
+    }
 
-let button = document.getElementsByClassName('section-experiences')
-const itensButton = button[0].children
-console.log(itensButton[1])
-console.log(itensButton[2])
-console.log(itensButton[3])
-for(i = 1; i < itensButton.length; i++){
-    
-    console.log('oi')
-
-}
-
-itensButton[1].addEventListener('click', evento => {
-    console.log(evento)
+    button.textContent = 'Ver mais'
 })
 
-// const seeMoreOrLess = itensButton.addEventListener('click', evento => {
 
-//     let card = document.querySelectorAll('#read-button')
-//     card.classList
-//     // console.log(evento.target)
-//     // console.log(card)
-//     for(i = 0; i < card.length; i++){
-//         card.classList.toggle('active')
-//     }
+let button2 = document.getElementById('read-button2')
+// console.log(button)
 
-//     // console.log(card)
-   
 
-//     const result = evento.target.innerText
+button2.addEventListener('click', function () {
+    let card = document.querySelector('.experience-card2')
 
-//     if (result === 'Ver mais') {
-//         return evento.target.innerText = 'Ver menos'
-//     }
+    card.classList.toggle('active')
 
-//     evento.target.innerText = 'Ver mais'
-// })
+    if(card.classList.contains('active')){
+        return button2.textContent = 'Ver menos'
+    }
+
+    button2.textContent = 'Ver mais'
+})
+
+
+let button3 = document.getElementById('read-button3')
+// console.log(button)
+
+
+button3.addEventListener('click', function () {
+    let card = document.querySelector('.experience-card3')
+
+    card.classList.toggle('active')
+
+    if(card.classList.contains('active')){
+        return button3.textContent = 'Ver menos'
+    }
+
+    button3.textContent = 'Ver mais'
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// let button = document.getElementsByClassName('section-experiences')
+// const itensButton = button[0].children
+// const card = document.querySelectorAll('.experience-card')
+// const itensCard = card.length
+
+
+// for (i = 1; i < itensButton.length; i++) {
+// itensButton[i].addEventListener('click', evento => {
+//         const clickButton = evento.target
+//         for (i = 0; i < card.length; i++) {
+//         // console.log(clickButton)
+
+//             card[i].classList.toggle('active')
+//             if (card[i].classList.contains('active')) {
+//                 return clickButton.textContent = 'Ver menos'
+//             }
+//             clickButton.textContent = 'Ver mais'
+//         }
+//     })
+// }
+
+
+
+
 
 

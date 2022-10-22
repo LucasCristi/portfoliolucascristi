@@ -12,26 +12,45 @@
 .section-experiences{
     display: flex;
     margin: 0 auto;
+    margin: 0 auto 20rem auto;
 }
 
-.experience-card {
+ h1{
+    margin: 0 auto;
+    width: 30%;
+    padding: 0.2em;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 1em;
+    font-weight: bold;
+    border-bottom-right-radius: 1em;
+    border-top-left-radius: 1em;
+    border-top: 1px solid #150485;
+    border-bottom: 1px solid #150485;
+    margin-bottom: 0.5em;
+    text-shadow: 1px 1px 1px #863def
+}
+
+.experience-card, .experience-card2, .experience-card3 {
     display: flex;
+    font-size: 1.2rem;
     flex-direction: column;
     justify-content: center;
-    background-color: #863def;
+    background-color: #A9B0D4;
+    opacity: .9;
     width: 20rem;
     color: var(--font-color);
     justify-content: center;
     align-items: center;
-    padding: 1.5rem;
+    padding: 1rem;
     text-align: justify;
     box-shadow: 10px 10px 10px #5649ac;
     position: relative;
     z-index: 1;
-    margin: 5rem auto;
+    margin: 2rem auto;
 }
 
-.experience-card::before {
+.experience-card::before, .experience-card2::before, .experience-card3::before {
     content: '';
     position: absolute;
     top: 0;
@@ -46,7 +65,8 @@
 }
 
 .icon img {
-    width: 8rem;
+    width: 10rem;
+    height: 8rem;
 }
 
 .content {
@@ -61,8 +81,8 @@
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 2rem;
-    background: linear-gradient(transparent, #863def);
+    height: 1rem;
+    background: linear-gradient(transparent, #A9B0D4);
 }
 
 .content h2 {
@@ -83,7 +103,7 @@
     border-radius: 1em;
 }
 
-#read-button {
+#read-button, #read-button2, #read-button3 {
     border: none;
     padding: .2rem 1rem;
     border-radius: 2rem;
@@ -95,16 +115,16 @@
     transition: .8s;
 }
 
-#read-button:hover {
-    background-color: #863def;
+#read-button:hover, #read-button2:hover, #read-button3:hover {
+    background-color: #A9B0D4;
     color: #36279c;
     font-size: 1rem;
 }
 
-.experience-card.active .content{
+.experience-card.active .content, .experience-card2.active .content, .experience-card3.active .content{
     height: auto;
 }
 
-.experience-card.active .content::before{
+.experience-card.active .content::before, .experience-card2.active .content::before, .experience-card3.active .content::before{
     visibility: hidden;
 }

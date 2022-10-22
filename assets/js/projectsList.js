@@ -12,9 +12,9 @@ let imagesProject = [
 ]
 
 let namesList = [
-    "Acerte o número secreto! Projeto feito com API de comando de voz.",
-    "Lista de itens utilizando localStorage.",
-    "Robotron de combate para proteger a terra da invasão alienígena, trabalhando com a manipulação do DOM."
+    "Acerte o número secreto! Projeto feito com API de comando de voz. HTML, CSS JAVASCRIPT.",
+    "Lista de itens utilizando localStorage. HTML, CSS JAVASCRIPT.",
+    "Robotron de combate para proteger a terra da invasão alienígena, trabalhando com a manipulação do DOM. HTML, CSS JAVASCRIPT."
 ]
 
 

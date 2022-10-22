@@ -20,6 +20,9 @@ body {
     --label-icon: url("https://img.icons8.com/sf-regular/452/moon-symbol.png");
     --linkedin-img: url("https://img.icons8.com/color/344/linkedin-circled--v1.png");
     --github-img: url("https://img.icons8.com/ios-glyphs/344/github.png");
+    background-image: linear-gradient(to bottom, #c7d6eb, #abc1ee, #96abee, #8c92eb, #8c76e3);
+    --bg-color-header: linear-gradient(to bottom, #c7d6eb, #c7d6eb, #c7d6eb, #abc1ee, #abc1ee);
+    --font-color: #000
 }
 
 .header {
@@ -27,9 +30,15 @@ body {
     top: 0;
     width: 100%;
     padding: 1em;
-    background-image: linear-gradient(to bottom, #1d1e80, #36279c, #4f2fb7, #6a36d3, #863def);
-    box-shadow: -1em 1em 1em #863def;
+    /* background-color: #28FFBF; */
+    background-image: var(--bg-color-header);
+    box-shadow: -1em 1em 1em #abc1ee;
     z-index: 2;
+    opacity: 0.8;
+}
+
+.header a {
+    opacity: 1;
 }
 
 .navigation {
@@ -62,17 +71,18 @@ nav ul li a {
 
 nav ul li a:hover {
     letter-spacing: 0.07em;
-    text-shadow: 2px 5px 5px #000;
+    text-shadow: 2px 4px 3px #000;
 }
 
 a {
     text-decoration: none;
     color: var(--a-color);
     transition: 1.2s;
+    font-weight: bold;
 }
 
 a:hover {
-    color: #49FFF5;
+    color: #2BF80F;
 }
 
 .dark-mode {
@@ -114,11 +124,11 @@ a:hover {
 }
 
 .hello {
+    font-weight: bold;
     padding: 0.5em;
     width: 50%;
-    animation: backInUp;
-    animation-duration: 1.5s;
-    text-shadow: 1px 1px 1px #863def;
+    animation: zoomInDown;
+    animation-duration: 2.5s;
     background-color: var(--bg-color);
     border-bottom-left-radius: 1em;
     border-top-right-radius: 1em;
@@ -173,24 +183,23 @@ a:hover {
 } */
 
 .about {
-    padding: 0.1em;
+    padding: 2rem 0.8rem;
     padding-bottom: 0.5em;
     text-align: center;
-    margin-top: 1em;
     align-items: center;
     width: 40%;
-    margin: 15% 55%;
+    margin: 20rem 50rem;
     border-bottom-right-radius: 1em;
     border-top-left-radius: 1em;
     border-bottom: 1px solid #150485;
-    
+
 }
 
-.about p{
+.about p {
     border-bottom-right-radius: 1em;
     border-top-left-radius: 1em;
     padding: .2em;
-    
+    font-size: 1.5rem;
 }
 
 .about h2 {
@@ -204,7 +213,6 @@ a:hover {
     border-top: 1px solid #150485;
     border-bottom: 1px solid #150485;
     margin-bottom: 0.5em;
-    text-shadow: 1px 1px 1px #863def;
 }
 
 .experience-itens {
@@ -243,7 +251,6 @@ a:hover {
     border-top: 1px solid #150485;
     border-bottom: 1px solid #150485;
     margin-bottom: 0.5em;
-    text-shadow: 1px 1px 1px #863def;
 }
 
 .experience-informations {
@@ -264,7 +271,6 @@ h3 {
     border-top: 1px solid #150485;
     border-bottom: 1px solid #150485;
     margin-bottom: 0.5em;
-    text-shadow: 1px 1px 1px #863def;
 }
 
 .projects {
@@ -273,7 +279,7 @@ h3 {
     border-color: #150485; */
     width: 95%;
     padding-bottom: 1em;
-    margin: auto;
+    margin: 0 auto 20rem auto;
     border-radius: 0.3em;
 }
 
@@ -347,10 +353,11 @@ img {
 footer {
     margin-top: 3em;
     bottom: 0;
-    font-size: 1em;
+    font-size: 1.5rem;
     text-align: center;
     height: 1em;
     padding: 1em;
-    background-image: linear-gradient(to top, #1d1e80, #36279c, #4f2fb7, #6a36d3, #863def);
-    box-shadow: 0em -.5em 1em 0.5em #863def;
+
+    /* background-image: var(--bg-color-header);
+    box-shadow: 0em -.5em 1em 0.5em #ffff; */
 }

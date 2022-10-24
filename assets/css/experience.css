@@ -31,7 +31,7 @@
     text-shadow: 1px 1px 1px #863def
 }
 
-.experience-card, .experience-card2, .experience-card3 {
+.experience-card {
     display: flex;
     font-size: 1.2rem;
     flex-direction: column;
@@ -50,7 +50,7 @@
     margin: 2rem auto;
 }
 
-.experience-card::before, .experience-card2::before, .experience-card3::before {
+.experience-card::before {
     content: '';
     position: absolute;
     top: 0;
@@ -103,7 +103,7 @@
     border-radius: 1em;
 }
 
-#read-button, #read-button2, #read-button3 {
+#read-button {
     border: none;
     padding: .2rem 1rem;
     border-radius: 2rem;
@@ -115,16 +115,16 @@
     transition: .8s;
 }
 
-#read-button:hover, #read-button2:hover, #read-button3:hover {
+#read-button:hover {
     background-color: #A9B0D4;
     color: #36279c;
     font-size: 1rem;
 }
 
-.experience-card.active .content, .experience-card2.active .content, .experience-card3.active .content{
+.experience-card.active .content{
     height: auto;
 }
 
-.experience-card.active .content::before, .experience-card2.active .content::before, .experience-card3.active .content::before{
+.experience-card.active .content::before{
     visibility: hidden;
 }

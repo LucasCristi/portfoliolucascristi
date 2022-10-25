@@ -15,31 +15,44 @@
 
 let button = document.querySelectorAll('.read-button')
 
+button.forEach((buttons, index, array) => {
+    
+    let indic = 0
+    buttons
+    indic++
 
-for (i = 0; i <= button.length; i++) {
-    button[i].addEventListener('click', event => {
-
+    button[index].addEventListener('click', event => {
 
         let card = document.querySelectorAll('.experience-card')
-        console.log(card)
-        card.forEach(array => {
-            console.log(card)
-            let i = 0
-            array
-            i++
-            const toggleCard = array.classList.toggle('active')
-            console.log(array)
-            const eventButton = event.target
 
-            if (toggleCard) {
-                return eventButton.textContent = 'Ver menos'   
-            }
-             return eventButton.textContent = 'Ver mais'
-        }
-        )
-    }  
+        card.forEach((cards, index, array) => {
+            let i = 0
+            index
+            i++
+            card[index].addEventListener('click', e => {
+                console.log(card[index])
+                const eventButton = e.target
+
+                if (card[index].contains(button[index]) && eventButton.tagName === 'BUTTON') {
+                  
+                    
+                    let toggleCard = card[index].classList.toggle('active')
+
+                    if (toggleCard) {
+                        if (eventButton.tagName === 'BUTTON') {
+                            return eventButton.textContent = 'Ver menos'
+                        }
+                    }
+                    if (eventButton.tagName === 'BUTTON') {
+                        eventButton.textContent = 'Ver mais'
+                    }
+                } 
+
+            })
+        })
+    }
     )
-}
+})
 
 
 

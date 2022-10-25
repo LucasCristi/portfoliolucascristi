@@ -19,7 +19,7 @@
     margin: 0 auto;
     width: 30%;
     padding: 0.2em;
-    font-size: 1.5em;
+    font-size: 2rem;
     text-align: center;
     margin-top: 1em;
     font-weight: bold;
@@ -28,7 +28,6 @@
     border-top: 1px solid #150485;
     border-bottom: 1px solid #150485;
     margin-bottom: 0.5em;
-    text-shadow: 1px 1px 1px #863def
 }
 
 .experience-card {
@@ -40,7 +39,6 @@
     opacity: .9;
     width: 20rem;
     color: var(--font-color);
-    justify-content: center;
     align-items: center;
     padding: 1rem;
     text-align: justify;

@@ -126,3 +126,11 @@
 .experience-card.active .content::before{
     visibility: hidden;
 }
+
+@media screen and (max-width: 820px) {
+    .section-experiences{
+        width: auto;
+        margin: auto;
+        flex-direction: column;
+    }
+}

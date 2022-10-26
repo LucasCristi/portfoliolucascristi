@@ -388,3 +388,29 @@ footer {
 .iconsSocial img:hover {
     opacity: 1;
 }
+
+@media screen and (max-width: 820px) {
+    .header, footer, .iconsSocial{
+        width: auto;
+        margin: auto;
+    }
+
+    .header{
+        width: 100%;
+        padding: .3rem;
+    }
+
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hello-world{
+        margin-top: 10rem;
+    }
+
+    .iconsSocial img{
+        justify-content: space-between;
+        margin: .5rem;
+    }
+}

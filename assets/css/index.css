@@ -321,9 +321,9 @@ h3 {
 } */
 
 .div-project {
-    padding: 1.3em;
+    padding: 1em;
     /* padding-bottom: 8em; */
-    width: 15em;
+    width: 18em;
     height: 10em;
     flex-direction: column;
     justify-content: center;
@@ -355,13 +355,14 @@ h3 {
     color: #fff;
     transform: translateY(0.1em);
     opacity: 0;
-    padding: .3rem;
+
 }
 
 .div-project:hover p {
     opacity: 1;
     transition: 1.5s;
-    font-weight: bold;
+    margin: 0 auto;
+    padding: 0 auto;
 }
 
 footer {

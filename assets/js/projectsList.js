@@ -6,6 +6,7 @@ let projectList = [ //url of projects
     "https://lucascristi.github.io/calculodamedia/",
     "https://lucascristi.github.io/conversordemoedas/",
     "https://lucascristi.github.io/barbeariaalura/",
+    "https://lucascristi.github.io/API-CEP/",
 
 ]
 
@@ -17,6 +18,7 @@ let imagesProject = [
     "./photosProjects/average-calculation.png",
     "./photosProjects/currency-converter.png",
     "./photosProjects/barbearia-alura.png",
+    "./photosProjects/api-cep.png",
 
 ]
 
@@ -28,6 +30,7 @@ let namesList = [
     "Projeto para cálculo de média (3 notas) feito na semana da Imersão Dev da Alura, onde utilizei conhecimentos próprios para os desafios. HTML, CSS e JAVASCRIPT.",
     "Conversor de moeda feito na semana da Imersão Dev da Alura. HTML, CSS e JAVASCRIPT. ",
     "Site desenvolvido com HTML e CSS, conta com responsividade. Realizado com base em cursos da Alura.",
+    "Consumo de ApiCEP para preenchimento automático do endereço utilizando o método FETCH. Realizado em projeto de curso da Alura. Obs: Front-end já estava pronto.",
 
 ]
 

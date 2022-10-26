@@ -14,7 +14,7 @@ body {
     transition: 2s;
     user-select: none;
     font-family: 'Roboto', sans-serif;
-   
+
 }
 
 :root {
@@ -125,7 +125,7 @@ a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: red; */
-   
+
 }
 
 .hello {
@@ -139,7 +139,7 @@ a:hover {
     border-top-right-radius: 1em;
     border-top: 1px solid #150485;
     border-bottom: 1px solid #150485;
-   
+
 }
 
 .photo {
@@ -201,7 +201,7 @@ a:hover {
     border-bottom: 1px solid #150485;
 }
 
-.about img{
+.about img {
     width: 20rem;
     height: 15rem;
     margin: auto;
@@ -312,7 +312,7 @@ h3 {
     height: 10em;
     margin: auto;
     /* display: inline; */
-    transition: all 1.7s;   
+    transition: all 1.7s;
 }
 
 /* .portfolio-projects img:hover {
@@ -390,26 +390,45 @@ footer {
 }
 
 @media screen and (max-width: 820px) {
-    .header, footer, .iconsSocial{
+
+    .header,
+    footer,
+    .iconsSocial {
         width: auto;
         margin: auto;
     }
 
-    .header{
+    .header {
         width: 100%;
         padding: .3rem;
     }
 
-    nav ul li{
+    nav ul li {
         display: flex;
         flex-direction: column;
     }
 
-    .hello-world{
+    .hello-world {
         margin-top: 10rem;
     }
 
-    .iconsSocial img{
+    .hello {
+        text-align: center;
+        width: auto;
+    }
+
+    .about h2,
+    .projects h3 {
+        width: 80%;
+        margin: 2rem auto;
+    }
+
+    .exp-title {
+        width: 80%;
+        margin: auto;
+    }
+
+    .iconsSocial img {
         justify-content: space-between;
         margin: .5rem;
     }

@@ -19,7 +19,7 @@ body {
 :root {
   --label-icon: url("https://img.icons8.com/external-flaticons-lineal-color-flat-icons/512/external-moon-lighting-flaticons-lineal-color-flat-icons-2.png");
   --linkedin-img: url("https://img.icons8.com/color/344/linkedin-circled--v1.png");
-  --github-img: url("https://img.icons8.com/ios-glyphs/344/github.png");
+  --github-img: url("https://img.icons8.com/3d-fluency/512/github.png");
   background-image: linear-gradient(
     to right,
     #22107d,
@@ -203,6 +203,8 @@ span {
   background-image: url("../images/1900.png");
   background-size: cover;
   background-repeat: no-repeat;
+  box-shadow: inset -3rem -2rem 2rem #000;
+  
 }
 
 .social-network-footer {
@@ -241,7 +243,6 @@ span {
 }
 
 .about {
-  padding: 2rem 0.8rem;
   padding-bottom: 0.5em;
   text-align: center;
   align-items: center;
@@ -261,9 +262,9 @@ span {
 }
 
 .about p {
-  margin-top: 8rem;
+  margin-top: 2rem;
   border-bottom-right-radius: 1em;
-  border-top-left-radius: 1em;
+  /* border-top-left-radius: 1em; */
   padding: 0.2em;
   font-size: 1.3rem;
   background-image: linear-gradient(
@@ -404,7 +405,7 @@ h3 {
   border-radius: 0.5em;
   transition: 1.5s;
   margin: 1rem auto;
-  border: 0.1rem solid #4522ff;
+  border: 0.1rem solid #3b1fc7;
 }
 
 .div-project img {
@@ -545,6 +546,7 @@ i#menu{
   .iconsSocial img {
     justify-content: space-between;
     margin: 0.5rem;
+    opacity: 1;
   }
 
   .photo{

@@ -52,7 +52,7 @@ body {
 }
 
 .navigation {
-  width: 100%;
+  width: 95%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -97,7 +97,7 @@ nav {
 }
 
 nav ul {
-    background-color: rgba(142, 1, 249, 0.45);
+    background-color: rgba(142, 1, 249, 0.75);
     border-radius: 1rem;
 }
 
@@ -486,7 +486,7 @@ footer {
   }
 
   .header {
-    width: 100%;
+    width: 98%;
     padding: 0.3rem;
   }
 
@@ -496,12 +496,25 @@ footer {
   }
 
   .hello-world {
-    margin-top: 10rem;
+    margin-top: 5rem;
   }
+
+.hello-world1 {
+    padding-top: 1rem;
+    top: 5%;
+}
+
+.world{
+    margin-top: 1rem;
+}
 
   .hello {
     text-align: center;
     width: auto;
+  }
+
+  .projects{
+    padding-top: 2rem;
   }
 
   .about h2,
@@ -510,13 +523,32 @@ footer {
     margin: 2rem auto;
   }
 
+  .portfolio-projects{
+    margin: 0 auto;
+    padding: .3rem;
+  }
+
+  .about p {
+    margin-top: 3rem;
+  }
+
   .exp-title {
     width: 80%;
     margin: auto;
   }
 
+i#menu{
+    width: auto;
+    padding: 0;
+}
+
   .iconsSocial img {
     justify-content: space-between;
     margin: 0.5rem;
   }
+
+  .photo{
+    width: 100%;
+  }
+
 }

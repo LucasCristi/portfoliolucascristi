@@ -194,7 +194,7 @@ span {
 .social-network {
   display: flex;
   justify-content: center;
-  margin-bottom: 20rem;
+  margin-bottom: 10rem;
   background-image: url("../images/1900.png");
   background-size: cover;
   background-repeat: no-repeat;

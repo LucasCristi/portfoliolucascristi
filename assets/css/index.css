@@ -393,6 +393,30 @@ h3 {
   transition: all 1.7s;
 }
 
+.name-project {
+  color: var(--a-color);
+  text-align: center;
+  padding: 1.5rem;
+}
+
+.name-project h4{
+  font-size: 1.5rem;
+  font-weight: bold;
+  display: inline-block;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  padding: .3rem;
+  background-image: linear-gradient( to right top, #4522ff, #581eff, #681aff, #7615ff, #830eff, #8b0aff, #9205fe, #9900fe, #9e00fe, #a200fd, #a700fc, #ab00fc );
+}
+
+.name-project h5{
+  font-style: italic;
+  padding: .2rem;
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+  background-image: linear-gradient( to right top, #4522ff, #581eff, #681aff, #7615ff, #830eff, #8b0aff, #9205fe, #9900fe, #9e00fe, #a200fd, #a700fc, #ab00fc );
+}
+
 .div-project {
   padding: 1em;
   width: 18em;
@@ -402,11 +426,13 @@ h3 {
   background: radial-gradient(#111 50%, #000 100%);
   overflow: hidden;
   position: relative;
-  border-radius: 0.5em;
+  border-bottom-right-radius: 1rem;
+  border-bottom-left-radius: 1rem;
   transition: 1.5s;
-  margin: 1rem auto;
+  margin: 0 auto;
   border: 0.1rem solid #3b1fc7;
 }
+
 
 .div-project img {
   width: 98%;
